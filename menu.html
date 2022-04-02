@@ -1,10 +1,10 @@
 <!doctype html>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-
+    <link rel = 'stylesheet' href='css/menu.css'/>
     <title>Sprint Challenge - Menu</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
@@ -14,17 +14,24 @@
 <body>
     <div>
         <!-- header -->
-        <header>
-            BLOOMTECH BAR AND GRILL
-
-            <!-- nav -->
-            <nav>
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </nav>
-        </header>
+        <header> 
+			<div>
+				<h1> <a href = 'index.html'>
+				BLOOMTECH BAR AND GRILL</a>
+			</h1>	
+				<!-- nav -->
+				<nav>
+				Menu <a href = menu.html> </a>
+				Reservations
+				Special Offers
+				Contact
+		
+	<button><i class="fa-brands fa-facebook"></i> </button>
+	<button><i class="fa-brands fa-twitter"></i></button>
+	<button><i class="fa-brands fa-instagram"></i></button>
+			</nav>
+			</div>
+		</header>
 
         <!-- spacer -->
         <div class="spacer"></div>
@@ -32,8 +39,8 @@
         <!-- menu -->
         <article class="menu">
             Food & Drink
-
-                Drinks
+            <section class = 'menu-section'>
+               <section class = 'menu-item'> Drinks 
                     Soda
                     $2
                     Coke products
@@ -53,7 +60,9 @@
                     Cocktail
                     $10
                     Ask about our specials
+                </section>
 
+                <section class = "menu-section">
                 Appetizers
                     Fried Pickles
                     $6
@@ -68,7 +77,9 @@
                     Poutine
                     $5
                     Homemade fries topped with everything but the kitchen sink
+                </section> 
 
+                <section class = "menu-section">
                 Soup and Salad
                     House Salad
                     $8
@@ -83,7 +94,9 @@
                     $5
                     Creamy and filling
                     (GF)
-                    
+                </section>  
+
+                 <section class = "menu-section">
                 Entrees
                     Ribeye Steak
                     $32
@@ -98,7 +111,9 @@
                     $18
                     Melt off the bone finger food
                     (GF)
-                    
+                </section>  
+                
+                <section class = "menu-section">
                 Desserts
                     Flourless Chocolate Cake
                     $7
@@ -113,6 +128,7 @@
                     $8
                     Crispy scorched top containing a perfect, smooth custard
                     (GF)
+                </section>
         </article>
 
         <!-- spacer -->
@@ -120,17 +136,19 @@
 
         <!-- footer -->
         <footer>
-            <!-- email signup -->
-            Join our mailing list!
-            Sign Up
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </footer>
+			<nav>
+			<!-- email signup -->
+			<input type='email'> Join our mailing list! </input>
+			<button>Sign Up </button>
+			<!-- nav -->
+			Menu <a href = menu.html> </a>
+			Reservations
+			Special Offers
+			Contact
+		</nav>
+			<!-- copyright -->
+			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+		</footer>
     </div>
 </body>
 
